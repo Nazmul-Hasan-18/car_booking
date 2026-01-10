@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Corolla",
+    "image": "/images/cars/corolla.jpg",
+    "price": 3500,
+    "model": "2020",
+    "km": 45000,
+    "categoryId": 1
+  },
+  {
+    "id": 2,
+    "name": "Toyota Axio",
+    "image": "/images/cars/axio.jpg",
+    "price": 3000,
+    "model": "2019",
+    "km": 52000,
+    "categoryId": 1
+  },
+  {
+    "id": 3,
+    "name": "Toyota Premio",
+    "image": "/images/cars/premio.jpg",
+    "price": 5000,
+    "model": "2021",
+    "km": 38000,
+    "categoryId": 1
+  },
+
+  {
+    "id": 4,
+    "name": "Honda Civic",
+    "image": "/images/cars/civic.jpg",
+    "price": 4200,
+    "model": "2020",
+    "km": 46000,
+    "categoryId": 2
+  },
+  {
+    "id": 5,
+    "name": "Hyundai Elantra",
+    "image": "/images/cars/elantra.jpg",
+    "price": 4000,
+    "model": "2019",
+    "km": 54000,
+    "categoryId": 2
+  },
+  {
+    "id": 6,
+    "name": "Suzuki Swift",
+    "image": "/images/cars/swift.jpg",
+    "price": 2800,
+    "model": "2018",
+    "km": 62000,
+    "categoryId": 2
+  },
+
+  {
+    "id": 7,
+    "name": "Nissan X-Trail",
+    "image": "/images/cars/xtrail.jpg",
+    "price": 6500,
+    "model": "2021",
+    "km": 31000,
+    "categoryId": 3
+  },
+  {
+    "id": 8,
+    "name": "Kia Sportage",
+    "image": "/images/cars/sportage.jpg",
+    "price": 7000,
+    "model": "2022",
+    "km": 28000,
+    "categoryId": 3
+  },
+  {
+    "id": 9,
+    "name": "Mitsubishi Pajero",
+    "image": "/images/cars/pajero.jpg",
+    "price": 8000,
+    "model": "2019",
+    "km": 75000,
+    "categoryId": 3
+  },
+
+  {
+    "id": 10,
+    "name": "BMW X1",
+    "image": "/images/cars/bmw-x1.jpg",
+    "price": 12000,
+    "model": "2022",
+    "km": 22000,
+    "categoryId": 4
+  },
+  {
+    "id": 11,
+    "name": "Mercedes-Benz C-Class",
+    "image": "/images/cars/mercedes-c.jpg",
+    "price": 15000,
+    "model": "2023",
+    "km": 15000,
+    "categoryId": 4
+  },
+  {
+    "id": 12,
+    "name": "Audi A4",
+    "image": "/images/cars/audi-a4.jpg",
+    "price": 14000,
+    "model": "2022",
+    "km": 18000,
+    "categoryId": 4
+  }
+]
