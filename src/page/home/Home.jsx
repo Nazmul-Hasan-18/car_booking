@@ -4,6 +4,10 @@ import About from './about/About';
 import Service from './service/Service';
 import Driver from './driver/Driver';
 import Offer from './offers/Offer';
+import Tesmosial from './tesmosial/Tesmosial';
+import Member from './member/Member';
+import Location from './location/Location';
+import Blog from './blog/Blog';
 
 const Home = () => {
     return (
@@ -13,6 +17,10 @@ const Home = () => {
             <Service></Service>
             <Driver></Driver>
             <Offer></Offer>
+            <Tesmosial></Tesmosial>
+            <Member></Member>
+            <Location></Location>
+            <Blog></Blog>
         </div>
     );
 };

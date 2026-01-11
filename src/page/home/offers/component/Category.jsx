@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { data } from 'react-router';
+import React, { useState } from 'react'
 import CarCard from './CarCard';
 const items = [
     {

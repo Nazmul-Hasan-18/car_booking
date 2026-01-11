@@ -9,13 +9,13 @@
     "categoryId": 1
   },
   {
-    "id": 2,
-    "name": "Audi Q3",
-    "image": "https://gauto-react.themescare.com/static/media/audi-offer.759d5ba7e086ea80e414.png",
-    "price": "$3000",
-    "model": "2019",
-    "km": 52000,
-    "categoryId": 1
+    "id": 8,
+    "name": "Kia Sportage",
+    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
+    "price": 7000,
+    "model": "2022",
+    "km": 28000,
+    "categoryId": 3
   },
   {
     "id": 3,
@@ -26,7 +26,6 @@
     "km": 38000,
     "categoryId": 1
   },
-
   {
     "id": 4,
     "name": "Honda Civic",
@@ -54,7 +53,6 @@
     "km": 62000,
     "categoryId": 2
   },
-
   {
     "id": 7,
     "name": "Nissan X-Trail",
@@ -62,15 +60,6 @@
     "price": 6500,
     "model": "2021",
     "km": 31000,
-    "categoryId": 3
-  },
-  {
-    "id": 8,
-    "name": "Kia Sportage",
-    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
-    "price": 7000,
-    "model": "2022",
-    "km": 28000,
     "categoryId": 3
   },
   {
@@ -82,7 +71,6 @@
     "km": 75000,
     "categoryId": 3
   },
-
   {
     "id": 10,
     "name": "BMW X1",
@@ -100,6 +88,15 @@
     "model": "2023",
     "km": 15000,
     "categoryId": 4
+  },
+  {
+    "id": 2,
+    "name": "Audi Q3",
+    "image": "https://gauto-react.themescare.com/static/media/audi-offer.759d5ba7e086ea80e414.png",
+    "price": "$3000",
+    "model": "2019",
+    "km": 52000,
+    "categoryId": 1
   },
   {
     "id": 12,
