@@ -3,7 +3,7 @@ import img from "./../../../img/toyota-offer-2.861de085d1c782df9e9d.png";
 
 const Driver = () => {
     return (
-        <div className="py-20">
+        <div className="py-20 overflow-hidden">
             <div className="relative h-90">
                 <div className="mainbg h-95 w-[40%] shafe3 absolute top-0 left-0 z-10"></div>
                 <div className="bg-black h-95 w-[78%] shafe4 absolute top-0 right-0 z-20">

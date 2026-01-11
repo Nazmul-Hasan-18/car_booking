@@ -31,6 +31,12 @@
   clip-path:polygon(0% 0% ,80% 0%,100% 100%,20% 100%) ;
     transition: .3s all;
 }
+.shafe8{
+  clip-path:polygon(0% 0% ,80% 0%,100% 100%,0% 100%) ;
+}
+.shafe9{
+  clip-path:polygon(0% 0% ,100% 0%,100% 100%,19% 100%) ;
+}
 .hero{
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/slider-2.4cd97469474175a97a63.jpg);
   background-position: center;

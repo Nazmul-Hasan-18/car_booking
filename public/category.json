@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Toyota Corolla",
-    "image": "/images/cars/corolla.jpg",
-    "price": 3500,
+    "name": "BMW X3",
+    "image": "https://gauto-react.themescare.com/static/media/bmw-offer.ecfb9ac1bf7b5ef615a6.png",
+    "price": "$3500",
     "model": "2020",
     "km": 45000,
     "categoryId": 1
   },
   {
     "id": 2,
-    "name": "Toyota Axio",
-    "image": "/images/cars/axio.jpg",
-    "price": 3000,
+    "name": "Audi Q3",
+    "image": "https://gauto-react.themescare.com/static/media/audi-offer.759d5ba7e086ea80e414.png",
+    "price": "$3000",
     "model": "2019",
     "km": 52000,
     "categoryId": 1
   },
   {
     "id": 3,
-    "name": "Toyota Premio",
-    "image": "/images/cars/premio.jpg",
-    "price": 5000,
+    "name": "Toyota Camry",
+    "image": "https://gauto-react.themescare.com/static/media/toyota-offer-2.861de085d1c782df9e9d.png",
+    "price": "$5000",
     "model": "2021",
     "km": 38000,
     "categoryId": 1
@@ -30,8 +30,8 @@
   {
     "id": 4,
     "name": "Honda Civic",
-    "image": "/images/cars/civic.jpg",
-    "price": 4200,
+    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
+    "price": "$4200",
     "model": "2020",
     "km": 46000,
     "categoryId": 2
@@ -39,8 +39,8 @@
   {
     "id": 5,
     "name": "Hyundai Elantra",
-    "image": "/images/cars/elantra.jpg",
-    "price": 4000,
+    "image": "https://gauto-react.themescare.com/static/media/offer-toyota.4b2435e447a7832d9f4a.png",
+    "price": "$4000",
     "model": "2019",
     "km": 54000,
     "categoryId": 2
@@ -48,8 +48,8 @@
   {
     "id": 6,
     "name": "Suzuki Swift",
-    "image": "/images/cars/swift.jpg",
-    "price": 2800,
+    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
+    "price": "$2800",
     "model": "2018",
     "km": 62000,
     "categoryId": 2
@@ -58,7 +58,7 @@
   {
     "id": 7,
     "name": "Nissan X-Trail",
-    "image": "/images/cars/xtrail.jpg",
+    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
     "price": 6500,
     "model": "2021",
     "km": 31000,
@@ -67,7 +67,7 @@
   {
     "id": 8,
     "name": "Kia Sportage",
-    "image": "/images/cars/sportage.jpg",
+    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
     "price": 7000,
     "model": "2022",
     "km": 28000,
@@ -76,7 +76,7 @@
   {
     "id": 9,
     "name": "Mitsubishi Pajero",
-    "image": "/images/cars/pajero.jpg",
+    "image": "https://gauto-react.themescare.com/static/media/toyota-offer-2.861de085d1c782df9e9d.png",
     "price": 8000,
     "model": "2019",
     "km": 75000,
@@ -86,7 +86,7 @@
   {
     "id": 10,
     "name": "BMW X1",
-    "image": "/images/cars/bmw-x1.jpg",
+    "image": "https://gauto-react.themescare.com/static/media/marcedes-offer.d177a4fe9e2002ddb24d.png",
     "price": 12000,
     "model": "2022",
     "km": 22000,
@@ -95,7 +95,7 @@
   {
     "id": 11,
     "name": "Mercedes-Benz C-Class",
-    "image": "/images/cars/mercedes-c.jpg",
+    "image": "https://gauto-react.themescare.com/static/media/audi-offer.759d5ba7e086ea80e414.png",
     "price": 15000,
     "model": "2023",
     "km": 15000,
@@ -104,7 +104,7 @@
   {
     "id": 12,
     "name": "Audi A4",
-    "image": "/images/cars/audi-a4.jpg",
+    "image": "https://gauto-react.themescare.com/static/media/nissan-offer.6eddc86310b7cac538ae.png",
     "price": 14000,
     "model": "2022",
     "km": 18000,

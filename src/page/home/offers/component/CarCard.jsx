@@ -1,9 +1,20 @@
 import React from 'react';
+import UseCustomHook from '../../../../shared/component/hook/UseCustomHook';
+import Car from '../../../../shared/component/sinlgecar/Car';
 
-const CarCard = () => {
+const CarCard = ({id}) => {
+    const {data} = UseCustomHook('category.json')
+    const matchId = id ? data.filter(dat=> dat.categoryId === id) : data
     return (
-        <div>
+        <div className='container mx-auto px-34 grid grid-cols-3 gap-8'>
             
+            {
+                matchId.slice(0,6).map(data=>(
+                   <div className=''>
+                    <Car data={data}></Car>
+                   </div>
+                ))
+            }
         </div>
     );
 };
