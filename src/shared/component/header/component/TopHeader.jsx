@@ -20,13 +20,13 @@ const items = [
 const TopHeader = () => {
     return (
         <div className='relative'>
-            <div className='bg-black text-white  text-sm py-4 font-semibold'>
-                <div className='container mx-auto px-34'>
-                    <div className='flex  justify-end gap-8 items-center'>
+            <div className='md:bg-black md:text-white border-b border-gray-200 md:border-none text-[13px]  md:text-sm py-4 font-semibold  '>
+                <div className='container mx-auto md:px-34   flex flex-col justify-center items-center md:flex-row  md:justify-end'>
+                    <div className='flex  justify-end gap-4 md:gap-8 items-center'>
                         {
                             items.map(item => (
                                 <div className='flex items-center gap-1'>
-                                    <p className='text-lg'>{item.icon}</p>
+                                    <p className='md:text-lg'>{item.icon}</p>
                                     <p>{item.name}</p>
                                 </div>
                             ))
@@ -34,7 +34,7 @@ const TopHeader = () => {
                     </div>
                 </div>
             </div>
-            <div className='mainbg w-140 absolute top-0 overflow-hidden  shafe' >
+            <div className='mainbg w-140 absolute top-0 overflow-hidden  shafe hidden lg:block' >
                 <div className='  text-white font-semibold text-sm container pl-53 '>
                     <div className='flex items-center gap-4 py-4.5'>
                         <div>
