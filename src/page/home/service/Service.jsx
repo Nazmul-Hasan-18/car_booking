@@ -34,14 +34,14 @@ const Service = () => {
 
     return (
         <div className='bg-[#f6f6fb] py-15'>
-            <div className='container mx-auto px-34'>
+            <div className='container mx-auto px-6 md:px-34'>
                 <div className='text-center'>
                     <p className='font-semibold text-lg mainColor'>See Our</p>
-                    <h2 className='text-[46px] font-semibold mt-1'>Latest Services</h2>
+                    <h2 className='md:text-[46px] text-[32px] font-semibold md:mt-1'>Latest Services</h2>
                 </div>
                 <div className='relative overflow-hidden mt-10 '>
                     <div 
-                        className='flex transition-transform duration-700 ease-in-out '
+                        className='flex  transition-transform duration-700 ease-in-out '
                         style={{ transform: `translateX(-${currentIndex * (100/3)}%)` }}
                     >
                         {items.map((item) => (

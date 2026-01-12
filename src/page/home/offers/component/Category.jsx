@@ -26,11 +26,11 @@ const Category = () => {
     return (
         <div>
             <div className='flex flex-co justify-center items-center pt-3'>
-                <div className='flex items-center uppercase font-semibold '>
-                    <p className={`${click === null ? 'mainbg text-white' : 'bg-black text-white shafe6'} cursor-pointer py-2.5 px-12 shafe5`} onClick={() => handleId(null)}>all brands</p>
+                <div className='flex md:flex-row flex-col md:gap-0 gap-1 items-center uppercase text-sm md:text-[16px] font-semibold px-6 overflow-hidden'>
+                    <p className={`${click === null ? 'mainbg text-white' : 'bg-black text-white shafe6'} cursor-pointer py-2.5 px-12 w-158  md:w-50 text-center shafe5`} onClick={() => handleId(null)}>all brands</p>
                     {
                         items.map(item => (
-                            <div className={`${click === item.id ? '  mainbg text-white shafe5' : 'bg-black text-white shafe6'} cursor-pointer py-2.5 px-13 duration-300 hover:bg-[#ec3323]   shafe7`} onClick={() => handleId(item.id)} >
+                            <div className={`${click === item.id ? '  mainbg text-white shafe5' : 'bg-black text-white shafe6'} cursor-pointer py-2.5 px-13 duration-300 hover:bg-[#ec3323] w-160 md:w-45 text-center  shafe7`} onClick={() => handleId(item.id)} >
                                 <p >{item.name}</p>
                             </div>
                         ))
