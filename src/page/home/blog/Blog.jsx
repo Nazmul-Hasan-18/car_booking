@@ -8,28 +8,28 @@ const Blog = () => {
     ]
     return (
         <div>
-            <div className='container mx-auto px-34 pb-14'>
+            <div className='container mx-auto px-6 md:px-34 pb-14'>
                 <div className='text-center py-5' >
                     <p className='font-semibold text-lg mainColor'>latest</p>
-                    <h2 className='text-[46px] font-semibold mt-1'>Our blog</h2>
+                    <h2 className='md:text-[46px] text-[32px] font-semibold md:mt-1'>Our Blog</h2>
                 </div>
-                <div className='grid grid-cols-3 gap-7'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-7'>
                     {
                         items.map(item=>(
                             <div className='border-3 border-gray-200'>
                                 <img src={item.img} alt="" />
                                 <div className='px-5'>
-                                    <h3 className='text-xl font-semibold text-gray-900 tracking-wide border-b-3 border-gray-200 py-4'>{item.name}</h3>
-                                    <div className='flex items-center justify-between py-5'>
-                                        <h4 className='text-gray-400 text-[15px]'>July 13, 09:43 am</h4>
+                                    <h3 className='md:text-xl text-lg font-semibold text-gray-900 tracking-wide border-b-3 border-gray-200 py-4'>{item.name}</h3>
+                                    <div className='flex items-center justify-between py-3 md:py-5'>
+                                        <h4 className='text-gray-400 md:text-[15px] text-[14px]'>July 13, 09:43 am</h4>
                                         <div className='flex items-center gap-5'>
                                             <div className='flex items-center gap-1'>
-                                                <span className='mainColor'><FaEye /></span>
-                                                <p className='text-sm text-gray-400'>{item.view}</p>
+                                                <span className='mainColor text-sm md:text-[16px]'><FaEye /></span>
+                                                <p className='md:text-sm text-[13px] text-gray-400'>{item.view}</p>
                                             </div>
                                             <div className='flex items-center gap-1'>
-                                                <span className='mainColor'><FaComments /></span>
-                                                <p className='text-sm text-gray-400'>{item.comment}</p>
+                                                <span className='mainColor text-sm md:text-[16px]'><FaComments /></span>
+                                                <p className=' text-gray-400 md:text-[15px] text-[13px]'>{item.comment}</p>
                                             </div>
                                         </div>
                                     </div>

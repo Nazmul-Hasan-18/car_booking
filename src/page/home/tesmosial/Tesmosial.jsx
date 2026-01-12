@@ -25,20 +25,20 @@ const Tesmosial = () => {
         <div className='bg-black py-15'>
             <div className='text-center py-5' >
                 <p className='font-semibold text-lg mainColor'>Some words</p>
-                <h2 className='text-[46px] font-semibold text-white'>Testimonial</h2>
+                <h2 className='md:text-[46px] text-[32px] md:mt-1 font-semibold text-white'>Testimonial</h2>
             </div>
             <div className=''>
                 <div>
-                    <div className='grid grid-cols-3 gap-8 container mx-auto px-34 py-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-8 container mx-auto md:px-34 px-4 py-4'>
                         {
                             items.map(item => (
                                 <div className='bg-white px-8 py-8'>
-                                    <p className='text-[15px]  text-gray-500 leading-7 tracking-wide'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, consequuntur molestias, iste quas nisi magni cumque-n ostrum ipsum saepe hic impedit  </p>
-                                    <div className='flex items-center gap-5 mt-7'>
-                                        <img className='w-17 rounded-full' src={item.img} alt="" />
+                                    <p className='md:text-[15px] text-[14px]  text-gray-500 leading-7 tracking-wide'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, consequuntur molestias, iste quas nisi magni cumque-n ostrum ipsum saepe hic impedit  </p>
+                                    <div className='flex items-center gap-2 md:gap-5 mt-7'>
+                                        <img className='md:w-17 w-15 rounded-full' src={item.img} alt="" />
                                         <div>
-                                            <h2 className='text-xl tracking-wide font-semibold'>{item.name}</h2>
-                                            <p className='mainColor mt-2 text-[15px]'>{item.tittle}</p>
+                                            <h2 className= ' text-lg md:text-xl tracking-wide font-semibold'>{item.name}</h2>
+                                            <p className='mainColor mt-1 md:mt-2 text-[15px]'>{item.tittle}</p>
                                         </div>
                                     </div>
                                 </div>
