@@ -6,6 +6,7 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './Root';
 import Home from './page/home/Home';
+import RentCar from './shared/component/rentCar/component/RentCar';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,11 @@ const router = createBrowserRouter([
       {
         index:true,
         element:<Home></Home>
-      }
+      },
+      {
+        path:'/rentCar/:id',
+        element:<RentCar></RentCar>     
+       }
     ]
   },
 ]);

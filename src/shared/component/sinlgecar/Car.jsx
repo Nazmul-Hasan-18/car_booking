@@ -27,7 +27,7 @@ const Car = ({ data }) => {
                     </div>
                 </div>
                 <div className='flex items-center group relative md:py-8 py-6 mt-5' >
-                    <Link>
+                    <Link to={`rentCar/${data.id}`}>
                         <div className='bg-black w-54.5 md:py-3 py-2.5 text-center text-white uppercase font-semibold text-[13px] md:text-[15px] shafe8 absolute top-0  -right-5'>
                             <span className=''>rent car</span>
                         </div>

@@ -27,7 +27,7 @@ const Nav = () => {
                         {
                             items.map(items => (
                                 <div>
-                                    <Link to={items.path}>
+                                    <Link>
                                         <p>{items.name}</p>
                                     </Link>
                                 </div>
